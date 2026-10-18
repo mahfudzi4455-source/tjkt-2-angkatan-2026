@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#100b20" />
+  <title>TJKT 2 ANGKATAN 2026 — Class Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-mark"><span>T</span><i>2</i></div>
+        <div><strong>TJKT <span>HUB</span></strong><small>CLASS COMMUNITY</small></div>
+        <button class="icon-btn sidebar-close" id="closeSidebar" aria-label="Tutup menu">×</button>
+      </div>
+      <div class="school-chip"><span class="status-dot"></span> SMK NEGERI 1 BIAU</div>
+      <div class="nav-label">MENU UTAMA</div>
+      <nav class="nav-list" aria-label="Navigasi utama">
+        <button class="nav-item active" data-page="dashboard"><span class="nav-icon">◫</span> Dashboard <span class="nav-arrow">›</span></button>
+        <button class="nav-item" data-page="gallery"><span class="nav-icon">▧</span> Galeri <span class="nav-count">NEW</span></button>
+        <button class="nav-item" data-page="students"><span class="nav-icon">♙</span> Siswa</button>
+        <button class="nav-item" data-page="organization"><span class="nav-icon">⌘</span> Organisasi</button>
+        <button class="nav-item" data-page="about"><span class="nav-icon">◉</span> Tentang Kelas</button>
+        <button class="nav-item" data-page="social"><span class="nav-icon">↗</span> Sosial Media</button>
+      </nav>
+      <div class="nav-label management-label">PENGELOLAAN</div>
+      <nav class="nav-list">
+        <button class="nav-item" data-page="admin"><span class="nav-icon">▣</span> Admin Panel <span class="admin-mini">ADMIN</span></button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="sidebar-orb"></div>
+        <div class="sidebar-note"><span class="sparkle">✦</span><strong>Satu kelas, satu cerita.</strong><p>Tempat menyimpan momen dan prestasi kita bersama.</p></div>
+        <div class="profile-row">
+          <div class="avatar avatar-purple">TJ</div>
+          <div class="profile-copy"><strong>Anggota Kelas</strong><small>Mode pratinjau</small></div>
+          <button class="more-btn" aria-label="Pilihan akun">•••</button>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main-area">
+      <header class="topbar">
+        <div class="topbar-left">
+          <button class="icon-btn menu-toggle" id="openSidebar" aria-label="Buka menu">☰</button>
+          <div class="breadcrumb"><span>Class Hub</span><b>/</b><strong id="breadcrumbCurrent">Dashboard</strong></div>
+        </div>
+        <div class="topbar-actions">
+          <div class="date-pill"><span>◷</span><span id="todayDate">Hari ini</span></div>
+          <button class="icon-btn notification-btn" aria-label="Notifikasi">♧<i></i></button>
+          <div class="top-avatar">T2</div>
+        </div>
+      </header>
+
+      <div class="content-wrap">
+        <section class="page active" id="page-dashboard">
+          <div class="welcome-row">
+            <div>
+              <div class="eyebrow"><span class="eyebrow-line"></span> CLASS COMMUNITY PORTAL</div>
+              <h1>Halo, warga <span class="gradient-text">TJKT 2 ANGKATAN 2026.</span> <span class="wave">✦</span></h1>
+              <p class="subheading">Tempatnya siswa berprestasi. Simpan momen, rayakan karya, tumbuh bersama.</p>
+            </div>
+            <button class="primary-btn" data-go="gallery"><span>＋</span> Jelajahi galeri</button>
+          </div>
+
+          <div class="hero-card">
+            <div class="hero-grid"></div><div class="hero-glow"></div>
+            <div class="hero-content">
+              <div class="hero-tag"><span class="live-dot"></span> OUR CLASS • OUR STORY</div>
+              <h2>Lebih dari sekadar<br><span>teman sekelas.</span></h2>
+              <p>Setiap momen punya cerita. Setiap usaha punya arti.<br>Ini ruang digital milik kita bersama.</p>
+              <button class="hero-link" data-go="about">Kenali kelas kita <span>↗</span></button>
+            </div>
+            <div class="hero-art" aria-hidden="true">
+              <div class="art-ring ring-one"></div><div class="art-ring ring-two"></div>
+              <div class="art-glass"><div class="art-star">✦</div><div class="art-big">TJKT<span> 2</span></div><div class="art-caption">ANGKATAN 2026</div></div>
+              <div class="floating-chip chip-top">✦  KEEP GROWING</div><div class="floating-chip chip-bottom">◈  MEMORIES & ACHIEVEMENTS</div>
+            </div>
+            <div class="hero-bottom"><span>SMK NEGERI 1 BIAU</span><span class="hero-bottom-line"></span><span>EST. 2026</span></div>
+          </div>
+
+          <div class="section-heading">
+            <div><h2>Ruang kelas kita</h2><p>Akses cepat ke semua yang kamu butuhkan.</p></div>
+            <span class="section-kicker">QUICK ACCESS <span>↘</span></span>
+          </div>
+          <div class="stats-grid">
+            <button class="stat-card stat-lilac" data-go="gallery"><div class="stat-top"><span class="stat-icon">▧</span><span class="stat-arrow">↗</span></div><strong>Galeri Kelas</strong><p>Foto, video & kenangan</p><div class="stat-foot"><span class="stat-bar"><i style="width:72%"></i></span><small>LIHAT GALERI</small></div></button>
+            <button class="stat-card stat-blue" data-go="students"><div class="stat-top"><span class="stat-icon">♙</span><span class="stat-arrow">↗</span></div><strong>Anggota Kelas</strong><p>Kenali teman satu kelas</p><div class="stat-foot"><span class="stat-bar"><i style="width:88%"></i></span><small>LIHAT SISWA</small></div></button>
+            <button class="stat-card stat-pink" data-go="organization"><div class="stat-top"><span class="stat-icon">⌘</span><span class="stat-arrow">↗</span></div><strong>Organisasi</strong><p>Struktur & pengurus kelas</p><div class="stat-foot"><span class="stat-bar"><i style="width:58%"></i></span><small>LIHAT STRUKTUR</small></div></button>
+            <button class="stat-card stat-green" data-go="social"><div class="stat-top"><span class="stat-icon">↗</span><span class="stat-arrow">↗</span></div><strong>Sosial Media</strong><p>Terhubung dengan kelas</p><div class="stat-foot"><span class="stat-bar"><i style="width:64%"></i></span><small>JELAJAHI</small></div></button>
+          </div>
+
+          <div class="bottom-grid">
+            <div class="panel recent-panel">
+              <div class="panel-heading"><div><h3>Jelajahi galeri</h3><p>Cuplikan tempat kenangan kelas disimpan.</p></div><button class="text-link" data-go="gallery">Buka galeri <span>→</span></button></div>
+              <div class="gallery-preview">
+                <button class="preview-tile preview-one" data-go="gallery"><span class="preview-symbol">✦</span><span class="preview-label">Momen kelas</span></button>
+                <button class="preview-tile preview-two" data-go="gallery"><span class="preview-symbol">◈</span><span class="preview-label">Kegiatan bersama</span></button>
+                <button class="preview-tile preview-three" data-go="gallery"><span class="preview-symbol">↗</span><span class="preview-label">Prestasi kita</span></button>
+              </div>
+            </div>
+            <div class="panel notice-panel">
+              <div class="panel-heading"><div><h3>Papan informasi</h3><p>Catatan untuk warga kelas.</p></div><span class="notice-icon">✦</span></div>
+              <div class="notice-item"><span class="notice-bullet"></span><div><strong>Selamat datang di Class Hub</strong><p>Rumah digital untuk dokumentasi dan cerita TJKT 2 ANGKATAN 2026.</p><small>INFO KELAS</small></div></div>
+              <div class="notice-item"><span class="notice-bullet lilac-bullet"></span><div><strong>Jaga ruang bersama</strong><p>Unggah konten yang positif dan menghargai teman.</p><small>PENGINGAT</small></div></div>
+            </div>
+          </div>
+          <footer class="footer"><span>© 2026 TJKT 2 ANGKATAN 2026 · SMK NEGERI 1 BIAU</span><span>MADE WITH <b>✦</b> FOR OUR CLASS</span></footer>
+        </section>
+
+        <section class="page" id="page-gallery">
+          <div class="page-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> MOMENTS & MEMORIES</div><h1>Galeri <span class="gradient-text">Kelas.</span></h1><p class="subheading">Kumpulan cerita, kegiatan, dan pencapaian warga TJKT 2 ANGKATAN 2026.</p></div><button class="primary-btn" id="uploadButton"><span>＋</span> Tambah media</button></div>
+          <div class="filter-row"><div class="filter-tabs"><button class="filter-tab active" data-filter="all">Semua media</button><button class="filter-tab" data-filter="photo">Foto</button><button class="filter-tab" data-filter="video">Video</button></div><label class="search-box"><span>⌕</span><input id="gallerySearch" type="search" placeholder="Cari kenangan..." /></label></div>
+          <div class="gallery-grid" id="galleryGrid">
+            <button class="media-card media-gradient-one" data-type="photo"><div class="media-art art-class">TJKT<span> 2</span><small>ANGKATAN 2026</small></div><span class="media-type">▧ FOTO</span><div class="media-info"><strong>Momen kebersamaan</strong><small>Galeri contoh · Pratinjau</small></div></button>
+            <button class="media-card media-gradient-two" data-type="photo"><div class="media-art art-spark">✦<small>MAKE IT COUNT</small></div><span class="media-type">▧ FOTO</span><div class="media-info"><strong>Hari penuh cerita</strong><small>Galeri contoh · Pratinjau</small></div></button>
+            <button class="media-card media-gradient-three" data-type="video"><div class="media-art art-play">▶<small>CLASS RECAP</small></div><span class="media-type">▷ VIDEO</span><div class="media-info"><strong>Rekap kegiatan kelas</strong><small>Video contoh · Pratinjau</small></div></button>
+            <button class="media-card media-gradient-four" data-type="photo"><div class="media-art art-winner">№<small>KEEP SHINING</small></div><span class="media-type">▧ FOTO</span><div class="media-info"><strong>Langkah menuju prestasi</strong><small>Galeri contoh · Pratinjau</small></div></button>
+            <button class="media-card media-gradient-five" data-type="video"><div class="media-art art-film">◉<small>OUR DAYS</small></div><span class="media-type">▷ VIDEO</span><div class="media-info"><strong>Potongan hari-hari kita</strong><small>Video contoh · Pratinjau</small></div></button>
+            <button class="media-card media-gradient-six" data-type="photo"><div class="media-art art-memory">✧<small>GOOD TIMES</small></div><span class="media-type">▧ FOTO</span><div class="media-info"><strong>Kenangan yang berharga</strong><small>Galeri contoh · Pratinjau</small></div></button>
+          </div>
+          <div class="empty-state" id="galleryEmpty" hidden><span>⌕</span><strong>Belum ada hasil</strong><p>Coba kata pencarian atau filter lainnya.</p></div>
+          <div class="info-banner"><span class="banner-icon">ⓘ</span><p><strong>Mode pratinjau:</strong> kartu galeri di atas adalah contoh desain. Fitur upload dan penyimpanan online akan diaktifkan saat Firebase/Supabase dikonfigurasi.</p></div>
+        </section>
+
+        <section class="page" id="page-students">
+          <div class="page-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> MEET THE CREW</div><h1>Warga <span class="gradient-text">TJKT 2 ANGKATAN 2026.</span></h1><p class="subheading">Satu kelas, banyak karakter, satu cerita besar.</p></div><div class="member-badge"><span>♙</span><div><strong>33</strong><small>ANGGOTA KELAS</small></div></div></div>
+          <div class="info-banner"><span class="banner-icon">ⓘ</span><p>Daftar ini masih berupa tampilan contoh. Data 33 siswa bisa ditambahkan setelah nama dan jabatan kelas tersedia.</p></div>
+          <div class="student-grid" id="studentGrid"></div>
+        </section>
+
+        <section class="page" id="page-organization">
+          <div class="page-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> CLASS STRUCTURE</div><h1>Struktur <span class="gradient-text">Organisasi.</span></h1><p class="subheading">Kolaborasi dan tanggung jawab untuk kelas yang lebih baik.</p></div></div>
+          <div class="org-board">
+            <div class="org-top"><div class="org-node org-main"><span class="org-avatar">✦</span><small>PEMBIMBING</small><strong>Wali Kelas</strong><em>Nama akan ditambahkan</em></div></div>
+            <div class="org-connector"></div>
+            <div class="org-leaders org-chair">
+              <div class="org-node"><span class="org-avatar purple">01</span><small>KETUA KELAS</small><strong>Ketua Kelas</strong><em>Nama akan ditambahkan</em></div>
+            </div>
+            <div class="org-connector short"></div>
+            <div class="org-leaders sub-leaders">
+              <div class="org-node"><span class="org-avatar blue">02</span><small>SEKRETARIS 1</small><strong>Sekretaris 1</strong><em>Nama akan ditambahkan</em></div>
+              <div class="org-node"><span class="org-avatar pink">03</span><small>SEKRETARIS 2</small><strong>Sekretaris 2</strong><em>Nama akan ditambahkan</em></div>
+              <div class="org-node"><span class="org-avatar green">04</span><small>BENDAHARA 1</small><strong>Bendahara 1</strong><em>Nama akan ditambahkan</em></div>
+              <div class="org-node"><span class="org-avatar orange">05</span><small>BENDAHARA 2</small><strong>Bendahara 2</strong><em>Nama akan ditambahkan</em></div>
+              <div class="org-node"><span class="org-avatar purple">06</span><small>KEAGAMAAN 1</small><strong>Keagamaan 1</strong><em>Nama akan ditambahkan</em></div>
+              <div class="org-node"><span class="org-avatar blue">07</span><small>KEAGAMAAN 2</small><strong>Keagamaan 2</strong><em>Nama akan ditambahkan</em></div>
+            </div>
+          </div>
+          <div class="info-banner"><span class="banner-icon">✎</span><p>Nama pengurus bisa diganti sesuai struktur organisasi kelas yang sebenarnya.</p></div>
+        </section>
+
+        <section class="page" id="page-about">
+          <div class="page-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> THIS IS OUR STORY</div><h1>Tentang <span class="gradient-text">Kelas Kita.</span></h1><p class="subheading">Tempatnya siswa berprestasi.</p></div></div>
+          <div class="about-layout"><div class="about-visual"><div class="about-glow"></div><div class="about-emblem"><span>✦</span><strong>TJKT <b>2</b> ANGKATAN 2026</strong><small>SMK NEGERI 1 BIAU</small><div class="emblem-line"></div><i>TUMBUH · BERKARYA · BERPRESTASI</i></div><span class="about-sticker sticker-a">✧ ONE TEAM</span><span class="about-sticker sticker-b">✦ ONE DREAM</span></div><div class="about-copy"><div class="eyebrow"><span class="eyebrow-line"></span> OUR IDENTITY</div><h2>Bukan cuma satu ruang kelas.<br><span>Ini rumah untuk bertumbuh.</span></h2><p>TJKT 2 ANGKATAN 2026 adalah komunitas belajar yang terus berkembang. Di sini kita berbagi pengetahuan, saling mendukung, dan merayakan setiap proses menuju masa depan.</p><p>Class Hub dibuat sebagai tempat digital untuk menyimpan dokumentasi, memperkenalkan anggota kelas, dan menjaga cerita kita tetap hidup.</p><div class="value-list"><div><span>01</span><strong>Kolaborasi</strong><small>Belajar dan berkembang bersama.</small></div><div><span>02</span><strong>Kreativitas</strong><small>Berani mencoba dan berkarya.</small></div><div><span>03</span><strong>Prestasi</strong><small>Menghargai proses dan hasil.</small></div></div></div></div>
+        </section>
+
+        <section class="page" id="page-social">
+          <div class="page-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> STAY CONNECTED</div><h1>Terhubung <span class="gradient-text">Bersama.</span></h1><p class="subheading">Ikuti kanal sosial media kelas dan bagikan cerita positif.</p></div></div>
+          <div class="social-grid"><div class="social-card social-instagram"><div class="social-top"><span class="social-symbol">◎</span><span class="external-arrow">↗</span></div><small>SOCIAL CHANNEL</small><h2>Instagram Kelas</h2><p>Dokumentasi kegiatan, foto bersama, dan kabar terbaru TJKT 2 ANGKATAN 2026.</p><span class="social-placeholder">Tautan akan ditambahkan admin</span></div><div class="social-card social-tiktok"><div class="social-top"><span class="social-symbol">♪</span><span class="external-arrow">↗</span></div><small>SHORT VIDEOS</small><h2>TikTok Kelas</h2><p>Video kegiatan dan momen seru yang layak dikenang.</p><span class="social-placeholder">Tautan akan ditambahkan admin</span></div><div class="social-card social-group"><div class="social-top"><span class="social-symbol">⌁</span><span class="external-arrow">↗</span></div><small>CLASS COMMUNITY</small><h2>Grup Kelas</h2><p>Tempat koordinasi dan informasi penting untuk anggota kelas.</p><span class="social-placeholder">Tautan akan ditambahkan admin</span></div></div>
+          <div class="info-banner"><span class="banner-icon">ⓘ</span><p>Belum ada tautan sosial media yang diatur. Admin dapat memasukkan tautan resmi kelas nantinya.</p></div>
+        </section>
+
+        <section class="page" id="page-admin">
+          <div class="page-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> ADMINISTRATION</div><h1>Admin <span class="gradient-text">Panel.</span></h1><p class="subheading">Area pengelolaan akun dan konten kelas.</p></div><span class="preview-badge"><span></span> UI PREVIEW</span></div>
+          <div class="admin-warning"><span>⚠</span><div><strong>Panel admin belum terhubung ke autentikasi.</strong><p>Ini baru pratinjau antarmuka. Jangan gunakan untuk mengelola akun atau file sungguhan sebelum Firebase, aturan akses, dan Supabase dikonfigurasi.</p></div></div>
+          <div class="admin-metrics"><div class="admin-metric"><span>MENUNGGU PERSETUJUAN</span><strong>—</strong><small>Menunggu koneksi Firebase</small></div><div class="admin-metric"><span>MEDIA GALERI</span><strong>—</strong><small>Menunggu koneksi storage</small></div><div class="admin-metric"><span>ANGGOTA TERDAFTAR</span><strong>—</strong><small>Menunggu data akun</small></div></div>
+          <div class="panel admin-table-panel"><div class="panel-heading"><div><h3>Permintaan akun</h3><p>Persetujuan siswa akan muncul di sini setelah backend diaktifkan.</p></div><span class="table-status">BELUM TERHUBUNG</span></div><div class="table-placeholder"><span>▤</span><strong>Belum ada data yang dimuat</strong><p>Hubungkan Firebase Authentication dan database untuk mengaktifkan fitur ini.</p></div></div>
+          <div class="panel admin-table-panel"><div class="panel-heading"><div><h3>Pengelolaan media</h3><p>Admin nantinya dapat menghapus media yang melanggar aturan kelas.</p></div></div><div class="table-placeholder compact"><span>▧</span><strong>Galeri belum terhubung</strong></div></div>
+        </section>
+      </div>
+    </main>
+  </div>
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <div class="toast" id="toast" role="status"></div>
+  <input type="file" id="mediaInput" accept="image/*,video/*" multiple hidden />
+  <script src="app.js"></script>
+</body>
+</html>
